@@ -6,6 +6,8 @@ Projeto desenvolvido no meu Trabalho de Conclusão de Curso na Universidade Esta
 
 O trabalho percorre a coleta dos dados públicos, a integração com tabelas de referência, a construção de uma base analítica e a interpretação dos resultados. A base inicial descrita no artigo reúne **40,3 milhões de registros**; após os critérios de preparação e seleção, a base analítica ficou com **4.685.717 registros e 20 variáveis**.
 
+[Leia o artigo completo](docs/artigo-tcc.pdf)
+
 ## Problema e objetivo
 
 Como transformar registros administrativos do SUS em informações sobre padrões de atendimento e utilização de recursos?
@@ -57,7 +59,11 @@ Os registros representam informações de produção ambulatorial. Quantidade de
 
 - **Três agrupamentos exploratórios** com diferentes distribuições de idade, sexo e diagnóstico na amostra utilizada pelo K-means.
 - **Associação entre o CID M545 e atendimento fisioterapêutico**, com lift de aproximadamente **20,6** no recorte analisado pelo Apriori.
-- **Análise de custos por diagnóstico:** o CID C61 apresentou cerca de **R$ 30,79 milhões** em valores aprovados, seguido do CID J45.0, com aproximadamente **R$ 29,87 milhões**, conforme os valores exibidos na Figura 8 do TCC.
+- **Análise de custos por diagnóstico:** o CID C61 apresentou cerca de **R$ 30,79 milhões** em valores aprovados, seguido do CID J45.0, com aproximadamente **R$ 29,87 milhões**, conforme os valores exibidos na Figura 8.
+
+![Dez diagnósticos com maior custo total aprovado no SIA/SUS do Paraná em 2023](assets/custos-por-diagnostico.png)
+
+*Figura 8 do artigo original, página 11. Fonte indicada no artigo: o autor. Valores referentes ao recorte do estudo.*
 
 ## Competências demonstradas
 
@@ -74,7 +80,7 @@ Os resultados acima são os reportados no TCC; esta apresentação não correspo
 
 Os modelos utilizaram amostras ou categorias selecionadas. Os agrupamentos são exploratórios, e a codificação numérica de CID-10 merece atenção na interpretação das distâncias do K-means. O percentual de 83% mencionado no artigo refere-se a um nó da árvore de decisão e não deve ser apresentado como acurácia global no conjunto de teste.
 
-Este repositório apresenta o resumo do projeto. Os scripts originais e as bases de dados ainda não estão incluídos; a reprodução computacional depende da disponibilização desses materiais e da documentação do ambiente e dos parâmetros de execução.
+Esta versão reúne o resumo do projeto, uma figura de resultados e o artigo completo. Os scripts originais e as bases de dados ainda não estão incluídos; a reprodução computacional depende da disponibilização desses materiais e da documentação do ambiente e dos parâmetros de execução.
 
 ## Artigo e autoria
 
@@ -82,4 +88,4 @@ Este repositório apresenta o resumo do projeto. Os scripts originais e as bases
 
 **Autoria do artigo:** Diego Luiz Oliveira e Maria Salete Marcon Gomes Vaz, vinculados à UEPG.
 
-O artigo original apresenta a metodologia, os gráficos, a discussão e as referências utilizadas.
+O [artigo completo em PDF](docs/artigo-tcc.pdf) apresenta a metodologia, os gráficos, a discussão e as referências utilizadas.
