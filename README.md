@@ -21,7 +21,7 @@ O objetivo foi explorar procedimentos, diagnósticos, características demográf
 | Fonte principal | Sistema de Informações Ambulatoriais do SUS (SIA/SUS), disponibilizado pelo DATASUS |
 | Recorte da base analítica | Paraná, janeiro a dezembro de 2023 |
 | Tabelas de referência | SIGTAP e CID-10 |
-| Base inicial informada no artigo | 40.335.101 registros e 82 colunas |
+| Base inicial | 40.335.101 registros e 82 colunas |
 | Base analítica final | 4.685.717 registros e 20 variáveis |
 | Grupos selecionados | Procedimentos clínicos, medicamentos e ações complementares da atenção à saúde |
 
