@@ -76,11 +76,18 @@ Os registros representam informações de produção ambulatorial. Quantidade de
 
 ## Escopo e limitações
 
-Os resultados acima são os reportados no TCC; esta apresentação não corresponde a uma nova execução das análises. O recorte geográfico, temporal e os filtros aplicados delimitam sua interpretação. As associações identificadas não estabelecem causalidade nem demonstram, por si só, desperdício ou economia de recursos.
+Desenvolvi este projeto durante meu TCC, realizando a coleta, a preparação e a análise dos dados em R, a aplicação das técnicas de mineração e a interpretação dos resultados. Neste repositório, reúno os resultados e o artigo com a metodologia completa.
 
-Os modelos utilizaram amostras ou categorias selecionadas. Os agrupamentos são exploratórios, e a codificação numérica de CID-10 merece atenção na interpretação das distâncias do K-means. O percentual de 83% mencionado no artigo refere-se a um nó da árvore de decisão e não deve ser apresentado como acurácia global no conjunto de teste.
+Delimitei o estudo aos registros ambulatoriais do Paraná em 2023, considerando os grupos de procedimentos e os critérios de seleção descritos na metodologia. As conclusões se aplicam a esse recorte; sua extensão a outros períodos ou regiões exige novas análises.
 
-Esta versão reúne o resumo do projeto, uma figura de resultados e o artigo completo. Os scripts originais e as bases de dados ainda não estão incluídos; a reprodução computacional depende da disponibilização desses materiais e da documentação do ambiente e dos parâmetros de execução.
+As principais limitações metodológicas são:
+
+- **Amostragem e seleção de categorias:** utilizei amostras e recortes específicos na modelagem, conforme descrito em cada técnica. Os padrões encontrados devem ser interpretados dentro desses conjuntos.
+- **Agrupamento exploratório:** no K-means, converti os códigos CID-10 em fatores numéricos. Essa representação influencia as distâncias entre os registros e limita a interpretação dos grupos como perfis clínicos.
+- **Avaliação da árvore de decisão:** o percentual de 83% apresentado no artigo se refere a um nó específico da árvore. A avaliação global do modelo no conjunto de teste exige métricas próprias.
+- **Interpretação das associações:** as relações identificadas descrevem padrões nos registros analisados. Atribuir causalidade ou quantificar desperdício e economia de recursos exige investigações adicionais.
+
+Disponibilizo aqui a apresentação do projeto, um gráfico de resultados e o artigo completo. Os scripts e as bases utilizados no desenvolvimento ainda não estão publicados neste repositório.
 
 ## Artigo e autoria
 
