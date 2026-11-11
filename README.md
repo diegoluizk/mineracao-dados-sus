@@ -63,9 +63,9 @@ Os registros representam informações de produção ambulatorial. Quantidade de
 
 ![Dez diagnósticos com maior custo total aprovado no SIA/SUS do Paraná em 2023](assets/custos-por-diagnostico.png)
 
-*Figura 8 do artigo original, página 11. Fonte indicada no artigo: o autor. Valores referentes ao recorte do estudo.*
+*Figura 8, página 11. Fonte: o autor.*
 
-## Competências demonstradas
+## Competências trabalhadas
 
 - Coleta e preparação de dados públicos em R.
 - Integração de fontes e validação de códigos com tabelas de referência.
